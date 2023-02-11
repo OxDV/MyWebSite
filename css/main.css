@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #23074d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7 */
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+  position: relative; /* все элементы absolute привязываются к род. блоку и не могут выйти за него */
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+
+h1 {
+  font-weight: 700;
+}
+
+#avatar {
+  border-radius: 100px;
+  height: 150px;
+  width: 145px;
+  border: 2px solid #fff;
+  position: absolute;
+  margin: 0 auto;
+  background-color: #fff;
+  bottom: -18.5%;
+  left: 0;
+  right: 0;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 44vh;
+  padding-top: 100px;
+}
+
+.title_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title_name h3 {
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.section-title__social-media {
+  transform: scale(1.6);
+}
+
+.section-title__social-media a {
+  padding: 0 4px;
+  color: #23074d;
+}
+
+.section-title__social-media a:hover {
+  color: #cc5333;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-title__about-me {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.section-title__about-me p {
+  margin: 0 200px 50px 200px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.section-title__about-me button {
+  cursor: pointer;
+  border: #cc5333 solid;
+  border-radius: 50px;
+  padding: 15px 30px;
+  color: #cc5333;
+  background: none;
+  font-weight: 700;
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.section-title__about-me button:hover {
+  box-shadow: 0 0 40px 40px #cc5333 inset;
+  color: white;
+}
+
+.section-about-me {
+  background-color: #e0e0e0;
+  margin-top: 100px;
+}
+
+.section-about-me-all {
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.section-about-me-study {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 250px;
+  margin-bottom: -250px;
+}
+
+.section-about-me img {
+  transform: scale(0.5);
+}
+
+.section-about-me__text-left {
+  display: flex;
+  height: 385px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-about-me__text-right {
+  display: flex;
+  height: 405px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 30px;
+}
+
+.section-professional-skills {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 250px;
+  width: 100%;
+  height: 700px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15pt;
+}
+
+#language {
+  margin-top: 150px;
+}
+
+.section-professional-skills__list {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.section-professional-skills__list li {
+  font-weight: 400;
+}
+
+.section-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: gray;
+}
+
+.section-footer__items {
+  transform: scale(2);
+}
+
+.section-footer__items a {
+  color: black;
+  padding: 0 4px;
+}
+
+.section-footer__items a:hover {
+  color: white;
+}
